@@ -40,6 +40,7 @@ def delete_rec(ID):
         print("\nSorry, No record found")
     DF = pd.DataFrame(crime_data)
 
+
 def find_rec(ID):
     global DF, crime_data
     for rec in crime_data:
